@@ -76,4 +76,9 @@ p {
   min-width: 264px;
   height: 67px;
   padding-bottom: 10px;
+  transition: 0.5s;
+  &:hover {
+    transition: 0.5s;
+    opacity: 0.7;
+  }
 }
