@@ -8,8 +8,11 @@
     right: 0;
     height: 100%;
     width: 145px;
+    z-index: 0;
   }
   &__wrapper {
+    position: relative;
+    z-index: 1;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -64,7 +67,7 @@
     max-width: 100%;
   }
   &__info {
-    width: 490px;
+    width: 505px;
     max-width: 100%;
     .title {
       color: #c67c50;
@@ -73,6 +76,7 @@
       margin-bottom: 30px;
     }
     .undertitle {
+      font-family: 'Papyrus';
       color: #349ac7;
       font-size: 36px;
       font-weight: 400;
@@ -106,7 +110,7 @@
 
 .home_phrase_item {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   &:nth-child(even) {
     .home_phrase_item__img {
@@ -129,6 +133,7 @@
     background-size: cover;
     padding: 45px 60px 50px 90px;
     .title {
+      font-family: 'Papyrus';
       color: #349ac7;
       font-size: 36px;
       font-weight: 400;

@@ -37,12 +37,17 @@ p {
   margin: 0;
 }
 
+.show_mobile {
+  display: none;
+}
+
 .item_title {
   color: #349ac7;
   font-size: 60px;
   font-weight: 400;
   line-height: 35px;
   letter-spacing: 1.2px;
+  font-family: 'Papyrus';
 }
 
 .item_text {
@@ -55,6 +60,7 @@ p {
 }
 
 .btn_green {
+  font-family: 'Papyrus';
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -69,5 +75,5 @@ p {
   background-position: center;
   min-width: 264px;
   height: 67px;
-  padding-bottom: 18px;
+  padding-bottom: 10px;
 }
