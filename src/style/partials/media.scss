@@ -128,6 +128,17 @@ body {
         width: 100%;
       }
     }
+    .sub_list_item__info {
+      &:before {
+        transform: rotate(180deg) scale(1) !important;
+        right: 0!important;
+        left: initial;
+      }
+    }
+    .sub_list_item:nth-child(even) .sub_list_item__info:before {
+      transform: rotate(180deg) scale(1) !important;
+      right: 0!important;
+    }
   }
   // break max-1200
   @media only screen and (max-width: $r-1200) {
