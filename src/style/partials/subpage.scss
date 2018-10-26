@@ -1,0 +1,30 @@
+// Subpage
+
+.sub_list {
+  padding: 80px 0;
+}
+
+.sub_list_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &:nth-child(even) {
+    .sub_list_item__img {
+      order: 2;
+    }
+  }
+  &__img {
+    width: 650px;
+    max-width: 100%;
+  }
+  &__info {
+    width: 505px;
+    max-width: 100%;
+    .title {
+      margin-bottom: 25px;
+    }
+    p {
+      margin-bottom: 45px;
+    }
+  }
+}

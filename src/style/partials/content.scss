@@ -1,0 +1,149 @@
+// Home about
+
+.home_about {
+  padding-bottom: 100px;
+  position: relative;
+  &__pseudo {
+    position: absolute;
+    right: 0;
+    height: 100%;
+    width: 145px;
+  }
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.home_about_item {
+  &:first-child {
+    width: 620px;
+    max-width: 100%;
+  }
+  &:nth-child(2) {
+    width: 495px;
+    max-width: 100%;
+  }
+  .title {
+    margin-bottom: 35px;
+  }
+  p {
+    margin-bottom: 50px;
+  }
+}
+
+// Home books
+
+.home_books {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  padding: 200px 0 0 0;
+  margin-top: -130px;
+  position: relative;
+  &__arrow {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    bottom: -33px;
+  }
+}
+
+.home_books_wrap_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &:nth-child(even) {
+    .home_books_wrap_item__img {
+      order: 2;
+    }
+  }
+  &__img {
+    width: 476px;
+    max-width: 100%;
+  }
+  &__info {
+    width: 490px;
+    max-width: 100%;
+    .title {
+      color: #c67c50;
+      font-size: 72px;
+      letter-spacing: 1.44px;
+      margin-bottom: 30px;
+    }
+    .undertitle {
+      color: #349ac7;
+      font-size: 36px;
+      font-weight: 400;
+      line-height: 35px;
+      letter-spacing: 0.72px;
+      margin-bottom: 18px;
+    }
+    p {
+      margin-bottom: 50px;
+    }
+  }
+}
+
+// Home Phrase
+
+.home_phrase {
+  padding-bottom: 35px;
+  position: relative;
+  &__pseudo {
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 265px;
+    z-index: 0;
+  }
+  &__wrapper {
+    position: relative;
+    z-index: 1;
+  }
+}
+
+.home_phrase_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &:nth-child(even) {
+    .home_phrase_item__img {
+      order: 2;
+    }
+    .home_phrase_item__text {
+      background-image: url("../img/border_text_2.png");
+    }
+  }
+  &__img {
+    width: 550px;
+    max-width: 1000%;
+  }
+  &__text {
+    width: 580px;
+    height: 273px;
+    max-width: 100%;
+    background-image: url("../img/border_text.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 45px 60px 50px 90px;
+    .title {
+      color: #349ac7;
+      font-size: 36px;
+      font-weight: 400;
+      line-height: 35px;
+      letter-spacing: 0.72px;
+      margin-bottom: 38px;
+    }
+    p {
+      height: 106px;
+      color: #656565;
+      font-family: 'Roboto Slab', serif;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 30px;
+      letter-spacing: 0.32px;
+    }
+  }
+}
